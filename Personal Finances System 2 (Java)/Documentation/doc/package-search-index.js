@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.example.financas_pessoais"},{"l":"com.example.financas_pessoais.Connector"},{"l":"com.example.financas_pessoais.func"},{"l":"com.example.financas_pessoais.Interface"}]
