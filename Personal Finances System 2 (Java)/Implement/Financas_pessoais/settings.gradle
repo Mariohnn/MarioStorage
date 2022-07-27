@@ -1,0 +1,2 @@
+rootProject.name = "Financas_pessoais"
+include ':app'
