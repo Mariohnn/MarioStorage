@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Financas_pessoais</string>
+    <string name="lCredenciais" />
+    <string name="lFinancas">Finanças Pessoais</string>
+    <string name="lBemvindo">Bem-Vindo</string>
+    <string name="lLogin">Login</string>
+    <string name="lSenha">Senha</string>
+    <string name="tValor" />
+    <string name="lTextoInicial">Insira as informacoes da nova despesa</string>
+    <string name="txtin">Insira as informacoes</string>
+    <string name="txtin2">da nova despesa.</string>
+    <string name="ttipoGasto">Tipo de Gasto</string>
+    <string name="lData">Data</string>
+    <string name="tSaldo">Saldo</string>
+</resources>

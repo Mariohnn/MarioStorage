@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interface.Menu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="417dp"
+        android:layout_height="186dp"
+        android:background="#353F77"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="0dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="288dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Menu Principal"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="65dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/bChecarSaldo"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:onClick="bChecarSaldo"
+        android:text="Checar Saldo"
+        app:backgroundTint="#353F77"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <Button
+        android:id="@+id/bAddSaldo"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:text="Adicionar Saldo"
+        app:backgroundTint="#353F77"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/bChecarSaldo"
+        app:layout_constraintTop_toTopOf="@+id/bChecarSaldo" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="66dp"
+        android:layout_height="57dp"
+        android:background="@drawable/ic_baseline_add_24"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="228dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/ic_baseline_attach_money_24"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="194dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="146dp"
+        android:layout_height="127dp"
+        android:background="@drawable/ic_baseline_check_box_24"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="191dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="511dp"
+        android:layout_height="434dp"
+        android:background="@mipmap/layer_outro"
+        tools:layout_editor_absoluteX="-62dp"
+        tools:layout_editor_absoluteY="408dp">
+
+        <Button
+            android:id="@+id/bListDespesas"
+            android:layout_width="204dp"
+            android:layout_height="48dp"
+            android:text="Listar Despesas"
+            app:backgroundTint="#353F77"
+            tools:layout_editor_absoluteX="271dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <Button
+            android:id="@+id/bAddDespesa"
+            android:layout_width="204dp"
+            android:layout_height="48dp"
+            android:text="Adicionar Despesas"
+            app:backgroundTint="#353F77"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="151dp"
+            android:layout_height="113dp"
+            android:background="@drawable/ic_baseline_create_new_folder_24"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="2dp">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="134dp"
+            android:layout_height="113dp"
+            android:background="@drawable/ic_baseline_list_alt_24"
+            tools:layout_editor_absoluteX="306dp"
+            tools:layout_editor_absoluteY="3dp">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/tValor"
+        android:layout_width="121dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="@string/tValor"
+        android:text="Valor"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
