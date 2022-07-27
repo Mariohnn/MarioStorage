@@ -1,0 +1,2 @@
+com/example/financas_pessoais/BuildConfig.java
+ com.example.financas_pessoais.BuildConfig
